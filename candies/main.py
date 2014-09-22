@@ -1,16 +1,11 @@
 import sys
 
 def solve(children):
-    # import pdb; pdb.set_trace()
     children_len = len(children)
     children_candies = [1 for child in children]
     pointer = 0
 
     while True:
-        # print children
-        # print children_candies
-        # print
-
         c_ch = children[pointer]
         c_ca = children_candies[pointer]
         if pointer == 0: p_ch = None
